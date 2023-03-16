@@ -27,7 +27,7 @@ print(type((9, 3, 7)))  # Tuple
 print(type({1, 2, 3}))  # Set
 print(type({'name': 'Python'}))  # Dictionary
 
-# Exercise: Level 3
+# Exercise: Level 3 (ChatGPT)
 import math
 
 # Define the two points
