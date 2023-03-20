@@ -5,8 +5,8 @@ operation = input('Enter operation to perform(+,-,*,/,%,//): ')
 num2 = input('Enter second integer: ')
 
 def calculator(num1, operation, num2):
-    int1 = int(num1)
-    int2 = int(num2)
+    int1 = float(num1)
+    int2 = float(num2)
 
     # Check if operand is valid then operate
     if(operation == '+'):
