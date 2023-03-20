@@ -3,15 +3,16 @@
 secret_word = 'python'
 guess_limit = 3
 attempt = 0
-word = input('Enter word: ')
+word = ''
 
 while attempt < guess_limit:
-    attempt =+ 1
+    word = input('Guess word: ')
     if word != secret_word:
-        print('Invalid answer, Try again!')
+        print('Incorrect. Try again!')
+        attempt += 1
     elif word == secret_word:
-        print('You won the game')
-    else:
-        print('You\'re out of attempts!')
+        print('You won the game!')
+        break
 
-print('Done')
+if attempt == 3:
+    print('You\'re out of attempts')
