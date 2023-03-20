@@ -15,4 +15,4 @@ while attempt < guess_limit:
         break
 
 if attempt == 3:
-    print('You\'re out of attempts')
+    print('You\'re out of attempts. You lose! ')
